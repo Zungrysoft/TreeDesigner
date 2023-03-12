@@ -1,3 +1,7 @@
+# This script was used to generate color_map.png
+# It contains every single color in rgb space
+# The image is 128 wide rather than 256 wide. This is to make the image a bit smaller.
+
 from PIL import Image
 
 WIDTH = 128

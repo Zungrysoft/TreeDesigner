@@ -18,12 +18,13 @@ TRUNK_THICKNESS = 0
 
 def generate_tree(params):
     ret = {
-        "0,0,0": [0.5, 0.5, 0.5],
+        "0,0,0": [0.6, 0.6, 0.6],
         "0,0,1": [0.5, 0.2, 0.2],
+        "0,0,3": [1, 0, 0],
     }
 
-    for i in range(25):
-        ret[f"{random.randint(-5,5)},{random.randint(-5,5)},{random.randint(-5,5)}"] = [random.random(), random.random(), random.random()]
+    # for i in range(25):
+    #     ret[f"{random.randint(-5,5)},{random.randint(-5,5)},{random.randint(-5,5)}"] = [random.random(), random.random(), random.random()]
 
     return ret
 
