@@ -68,7 +68,7 @@ def export(voxel_data, file_name):
         vi += 8
 
     # Add floor
-    fs = 25
+    fs = 50
     fh = 0.01
     dt += f"vt 0.25 0.8\n" # Hard-coded greenish color
     dt += f"v {fs} {fh} {fs}\n"   # -4
